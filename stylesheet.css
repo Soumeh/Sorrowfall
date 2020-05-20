@@ -3,7 +3,7 @@
 }
 
 @font-face {
-  font-family: "Minecraftia";
-  src: "Minecraftia.TTF";
+  font-family: "Minecraft";
+  src: url(Minecraft.TTF);
 }
-  body { font-family: "Minecraftia", serif; font-size: 24px;}
+  body { font-family: "Minecraft", serif; font-size: 24px;}
