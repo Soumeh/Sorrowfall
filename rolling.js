@@ -1,4 +1,8 @@
 function Rolling() {
-  let rolledNumber = Math.floor(Math.random() * document.getElementById("input").value) + 1;
-  document.getElementById("output").innerHTML = rolledNumber;
+  let rollInput = document.getElementById("input").value;
+  let rollOutput = Math.floor(Math.random() * rollInput) + 1;
+  if (rollOutput == NaN) {
+    let rollOutput = "Specify a number larger than 1";
+  };
+  document.getElementById("output").innerHTML = rollOutput;
 };

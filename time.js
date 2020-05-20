@@ -1,2 +1,4 @@
-let time = new Date();
-document.write(time);
+function Time() {
+  let time = new Date();
+  document.getElementById("timeOutput").innerHTML = time;
+};
