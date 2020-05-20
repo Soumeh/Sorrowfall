@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: "Minecraft";
-  src: url(fonts/Minecraft.ttf);
+  src: url(fonts/Minecraft.ttf); format('truetype');
   font-style: normal;
   font-weight: 100;
 }
