@@ -4,6 +4,6 @@
 
 @font-face {
   font-family: "Minecraft";
-  src: url(Minecraft.TTF);
+  src: url('Minecraft.TTF');
 }
   body { font-family: "Minecraft", serif; font-size: 24px;}
