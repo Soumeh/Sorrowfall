@@ -2,8 +2,15 @@
   text-align: center;
 }
 
+@import url(//db.onlinewebfonts.com/c/d35b191ec3938dab10be20a8c590428f?family=Minecraftia);
+
 @font-face {
   font-family: "Minecraft";
   src: url('Minecraft.TTF');
-}
+}@font-face {font-family: "Minecraftia"; src: url("//db.onlinewebfonts.com/t/d35b191ec3938dab10be20a8c590428f.eot");
+src: url("//db.onlinewebfonts.com/t/d35b191ec3938dab10be20a8c590428f.eot?#iefix") format("embedded-opentype"),
+url("//db.onlinewebfonts.com/t/d35b191ec3938dab10be20a8c590428f.woff2") format("woff2"),
+url("//db.onlinewebfonts.com/t/d35b191ec3938dab10be20a8c590428f.woff") format("woff"),
+url("//db.onlinewebfonts.com/t/d35b191ec3938dab10be20a8c590428f.ttf") format("truetype"),
+url("//db.onlinewebfonts.com/t/d35b191ec3938dab10be20a8c590428f.svg#Minecraftia") format("svg"); }
   body { font-family: "Minecraft", serif; font-size: 24px;}
