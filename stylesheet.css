@@ -37,7 +37,12 @@
 
 @font-face {
   font-family: "Minecraftia";
-  src: "Minecraftia.ttf";
+  src: url('file:///android_assets/fonts/Minecraftia.TTF');
 }
   body { font-family: "Minecraftia", serif }
   
+.running{
+    color: #565656;
+     font-family: "Minecraftia";
+     font-size: 12px;
+}
